@@ -80,6 +80,9 @@ This will generate the **out** file with circuit intermediaries and geneate the 
 
 ### Prove and Deploy
 Go to '.env.example' file, fill your private key in there and rename the file to '.env' .
+
+Don't forget to connect your wallet to mumbai testnet account,  use this for instructions: https://medium.com/stakingbits/how-to-connect-polygon-mumbai-testnet-to-metamask-fc3487a3871f
+
 `npx hardhat run scripts/deploy.ts`
 This script does 4 things  
 1. Deploys the MultiplierVerifier.sol contract
