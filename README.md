@@ -79,6 +79,7 @@ component main = Multiplier2();
 This will generate the **out** file with circuit intermediaries and geneate the **MultiplierVerifier.sol** contract
 
 ### Prove and Deploy
+Go to '.env.example' file, fill your private key in there and rename the file to '.env' .
 `npx hardhat run scripts/deploy.ts`
 This script does 4 things  
 1. Deploys the MultiplierVerifier.sol contract
